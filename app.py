@@ -3,7 +3,7 @@ import streamlit as st
 import datetime
 
 # API 키를 안전한 방법으로 저장 및 불러와야 합니다. 이 코드에 직접 키를 포함시키지 마세요.
-openai.api_key = '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'
+openai.api_key = 'your_key'
 
 def generate_image(prompt):
     try:
